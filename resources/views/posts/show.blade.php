@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body>
+        <a href="/posts/{{$post->id}}/edit">編集</a>
         <h1>{{$post->title}}</h1>
         <div>
             <h3>本文</h3>
