@@ -18,7 +18,6 @@
             <div>
                 <h3>本文</h3>
                 <textarea name="post[body]">{{$post->body}}</textarea>
-                <!--<input type="text" name="post[body]" value="{{$post->body}}" />-->
             </div>
             <input type="submit" value="保存" />
         </form>
