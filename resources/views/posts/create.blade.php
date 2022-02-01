@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>Blog Name</h1>
-        <form action="/posts" mothod="POST">
+        <form action="/posts" method="POST">
             @csrf
             <div>
                 <h2>Title</h2>
@@ -16,7 +16,7 @@
             </div>
             <div>
                 <h2>Body</h2>
-                <input type="text" name="post[body]" placeholder="本文"/>
+                <textarea name="post[body]" placeholder="本文"></textarea>
             </div>
             <input type="submit" value="保存" />
         </form>
